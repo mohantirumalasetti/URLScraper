@@ -6,7 +6,7 @@ from urllib.request import urlopen
 import re
 
 # Here we specify the url of the website you want to scrap
-url = "https://news.ycombinator.com/"  # url
+url = input("Enter Url: ")  # Example : https://news.ycombinator.com/
 
 
 # here is the function to create a file
